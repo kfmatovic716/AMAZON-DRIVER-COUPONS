@@ -5,7 +5,7 @@ GOAL: Utilize data exploratory techniques to answer a business question, "Will a
 DATA: This data comes from the UCI Machine Learning repository and was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., and then ask the person whether he will accept the coupon if he is the driver. Answers that the user will drive there ‘right away’ or ‘later before the coupon expires’ are labeled as ‘Y = 1’ and answers ‘no, I do not want the coupon’ are labeled as ‘Y = 0’. There are five different types of coupons -- less expensive restaurants (under $20), coffee houses, carry out & take away, bar, and more expensive restaurants ($20-$50) 
 
 After processing and cleaning the data, there is a total of 12,079 records in this dataset. Approximately 57% were customers who have chosen to accept the coupons and 43% customers did not accept the coupons.
-<img src='images/pie2.png'>
+<img src='images/pie.png'>
 
 Below is the distribution of coupons by type and it shows how popular coffee house are while bar coupons as less accepted type of coupon.
 <img src='images/barcoupon2.png'>
@@ -16,7 +16,7 @@ In this analysis, acceptance rates of Coffee Houses and Bar coupons were explore
 Key Findings on Bar Coupons:
 
 1. Customers who goes to bars more frequently are less likely to accept bar coupons than customers who goes to the bar less. If they like to go to bars, they will go regardless of having a coupon. On the other hand, less frequent bar goers are more likely to accept the coupon, as the 81% acceptance rate shows. In this group, bar coupons appeal to ages 21 to early 30s. Spending money in a bar is less priority for them, so bar coupons might be a good incentive. 
-<img src='images/bar2.png'>
+<img src='images/bar.png'>
 
 2. Customers going to bar more than once a month and over age of 25 are likely to accept bar coupons. This age group itself already assume the beginning of drinking stage and high social engagements. This group of customers  are either just started to go to bars or can also be the customers who have been going to bars more frequently. 
 
@@ -34,7 +34,7 @@ Key Findings on Coffee House Coupons:
 
 
 3. Female customers who goes with their friends are less likely to accept coupons. Drinking coffee is a form of social engagement and obviously is enjoyed with friends with or without coupons. Majority of the females in this group are in the ages of 21 and 26. Apparently, this is the same trend as the male counterpart. Acceptance rate for female customers with friends is approximately 19% and 18% for males.
-<img src='images/histogram.png'>
+<img src='images/females.png'>
 
 4. Customers who went to coffee house less frequently and is not married are more likely to want coupons than married customers. It appears that the difference in this group is that majority of the customers who are not married are on the income range between $12.5K to $50K compared to the married group having income between $50K to 100K. It is quite apparent that acceptance rates  are much higher in the not married group (43%) than in the married group (27%) . These customers who are not married has lesser income to spend for coffee and coupons will definitely work for them.
 
