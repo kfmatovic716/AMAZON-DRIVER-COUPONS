@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#ignore checkpoints & Mac User auto-generated file (Desktop Service Store)
+.DS_Store
+.virtual_documents
