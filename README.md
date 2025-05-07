@@ -1,4 +1,4 @@
-# DRIVER_COUPONS---Practical-Application-1
+# AMAZON DRIVER COUPONS 
 
 GOAL: Utilize data exploratory techniques to answer a business question, "Will a customer accept a coupon"? Distinguish between customers who accepted a driving coupon versus those that did not.
 
@@ -9,6 +9,9 @@ After processing and cleaning the data, there is a total of 12,079 records in th
 
 Below is the distribution of coupons by type and it shows how popular coffee house are while bar coupons as less accepted type of coupon.
 <img src='images/barcoupon2.png'>
+
+Temperature tends to be a factor in terms of coupon interest. It appears that there are more people who would likely use coupons when the weather is warmer (temperature 80s-90s F). Most people look for more activities in the summer when prices tend to be more expensive. Therefore, coupons can really help save money.
+<img src='images/temperature.png'>
 
 In this analysis, acceptance rates of Coffee Houses and Bar coupons were explored. Coffee Houses coupons is the most frequently distributed driver coupon, approximately 32% of the total coupons and Bar coupons are second to the lowest less frequently distributed coupon, approximately 18% of the total coupons distributed. 
 
@@ -43,6 +46,7 @@ Key Findings on Coffee House Coupons:
 
 6. Coffee coupons were accepted mostly when it is sunny. This makes sense due to the fact that customer tend to travel less when the weather is snowy and rainy.
 <img src='images/weather.png'>
+
 
 
 RECOMMENDATIONS:
